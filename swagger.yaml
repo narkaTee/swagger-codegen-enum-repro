@@ -5,10 +5,10 @@ definitions:
     properties:
       foo:
         type: string
-        enum: [foo bar]
+        enum: ["foo bar"]
   herp:
     type: object
     properties:
       bar:
         type: string
-        enum: [foo bar, test]
+        enum: ["foo bar", test]
