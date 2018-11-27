@@ -1,0 +1,14 @@
+swagger: "2.0"
+definitions:
+  fooBar:
+    type: object
+    properties:
+      foo:
+        type: string
+        enum: [foo bar]
+  herp:
+    type: object
+    properties:
+      bar:
+        type: string
+        enum: [foo bar, test]
